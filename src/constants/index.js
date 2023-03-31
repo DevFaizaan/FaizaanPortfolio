@@ -22,6 +22,7 @@ import {
   MealsOnWheels,
   Waves,
   BioLab,
+  QAweb,
 } from '../assets';
 
 export const navLinks = [
@@ -170,6 +171,28 @@ const projects = [
     ],
     image: MealsOnWheels,
     source_code_link: 'https://github.com/DevFaizaan/MealsOnWheels',
+  },
+  {
+    name: 'QA Cinemas',
+    description: `QA Cinemas which is an example of a typical web application for a cinema. 
+      It includes listings of current & upcoming movies, booking & payment functionality, 
+      information about the cinema, and a search bar to find movies that the cinema shows.`,
+    tags: [
+      {
+        name: 'MERN Stack',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Jira/Trello',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Mocha/Chai',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: QAweb,
+    source_code_link: 'https://github.com/DevFaizaan/qa-cinemas',
   },
   {
     name: 'Waves Music Player',

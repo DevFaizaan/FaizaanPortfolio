@@ -29,6 +29,7 @@ import SwipeRight from './company/SwipeRight.png';
 import MealsOnWheels from './MealsOnWheels.png';
 import Waves from './Waves.png';
 import BioLab from './BioLab.png';
+import QAweb from './QAweb.png';
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   MealsOnWheels,
   Waves,
   BioLab,
+  QAweb,
 };
